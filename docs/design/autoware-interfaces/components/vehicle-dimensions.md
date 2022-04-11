@@ -2,7 +2,7 @@
 
 ## Vehicle Axes and base_link
 
-![Vehicle Axes](images/vehicle_axes.svg)
+![Vehicle Axes](images/vehicle_axes.svg){: style="width:500px"}
 
 `base_link` frame is in the center of the rear axle.
 `base_link` used very frequently throughout the stack.
@@ -13,7 +13,7 @@
 
 ## Vehicle Dimensions
 
-![Vehicle Dimensions](images/vehicle_dimensions.svg)
+![Vehicle Dimensions](images/vehicle_dimensions.svg){: style="width:750px"}
 
 ### wheelbase
 
