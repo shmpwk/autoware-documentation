@@ -45,6 +45,18 @@ The distance between front axle and the foremost point of the vehicle.
 
 The distance between rear axle and the rear-most point of the vehicle.
 
+### length
+
+Total length of the vehicle.
+
+Also calculated by `front_overhang + wheelbase + rear_overhang`
+
+### width
+
+Total width of the vehicle.
+
+Also calculated by `left_overhang + track_width + right_overhang`
+
 ## Wheel orientations
 
 If the vehicle is going forward, a positive wheel angle will result in vehicle turning left.
