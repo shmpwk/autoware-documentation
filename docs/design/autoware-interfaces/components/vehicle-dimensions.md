@@ -1,6 +1,6 @@
-# Vehicle Dimensions
+# Vehicle dimensions
 
-## Vehicle Axes and base_link
+## Vehicle axes and base_link
 
 ![Vehicle Axes](images/vehicle_axes.svg){: style="width:500px"}
 
@@ -11,7 +11,7 @@
 - Planning module plans the poses for where the `base_link` frame should be in the future.
 - Control module tries to fit `base_link` to incoming poses.
 
-## Vehicle Dimensions
+## Vehicle dimensions
 
 ![Vehicle Dimensions](images/vehicle_dimensions.svg){: style="width:750px"}
 
