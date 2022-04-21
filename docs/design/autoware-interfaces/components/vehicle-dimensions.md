@@ -2,7 +2,7 @@
 
 ## Vehicle axes and base_link
 
-![Vehicle Axes](images/vehicle_axes.svg){: style="width:500px"}
+![Vehicle Axes](images/vehicle_axes.svg){: style="width:500px align=right"}
 
 `base_link` frame is in the center of the rear axle.
 `base_link` used very frequently throughout the stack.
@@ -13,7 +13,7 @@
 
 ## Vehicle dimensions
 
-![Vehicle Dimensions](images/vehicle_dimensions.svg){: style="width:750px"}
+![Vehicle Dimensions](images/vehicle_dimensions.svg){: style="width:750px align=right"}
 
 ### wheelbase
 
@@ -59,7 +59,7 @@ Also calculated by `left_overhang + track_width + right_overhang`
 
 ### Wheel parameters
 
-![Wheel Dimensions](images/wheels.svg){: style="width:250px"}
+![Wheel Dimensions](images/wheels.svg){: style="width:250px" align=right}
 
 #### wheel_width
 
@@ -71,7 +71,7 @@ Radius of the wheel, primarily used for dead reckoning.
 
 ### polygon_footprint
 
-![Wheel Dimensions](images/polygon_footprint.svg){: style="width:750px"}
+![Wheel Dimensions](images/polygon_footprint.svg){: style="width:750px align=right"}
 
 The polygon defines the minimum collision area for the vehicle.
 
