@@ -45,17 +45,37 @@ The distance between front axle and the foremost point of the vehicle.
 
 The distance between rear axle and the rear-most point of the vehicle.
 
-### length
+### vehicle_length
 
 Total length of the vehicle.
 
 Also calculated by `front_overhang + wheelbase + rear_overhang`
 
-### width
+### vehicle_width
 
 Total width of the vehicle.
 
 Also calculated by `left_overhang + track_width + right_overhang`
+
+### Wheel parameters
+
+![Wheel Dimensions](images/wheels.svg){: style="width:250px"}
+
+#### wheel_width
+
+Lateral width of a wheel tire, primarily used for dead reckoning.
+
+#### wheel_radius
+
+Radius of the wheel, primarily used for dead reckoning.
+
+### polygon_footprint
+
+![Wheel Dimensions](images/polygon_footprint.svg){: style="width:750px"}
+
+The polygon defines the minimum collision area for the vehicle.
+
+The points should be ordered clockwise, with origin on the `base_link`.
 
 ## Wheel orientations
 
