@@ -59,7 +59,7 @@ Also calculated by `left_overhang + track_width + right_overhang`
 
 ### Wheel parameters
 
-![Wheel Dimensions](images/wheels.svg){: style="width:250px" align=right}
+![Wheel Dimensions](images/wheels.svg){: style="width:500px" align=right}
 
 #### wheel_width
 
@@ -71,7 +71,7 @@ Radius of the wheel, primarily used for dead reckoning.
 
 ### polygon_footprint
 
-![Wheel Dimensions](images/polygon_footprint.svg){: style="width:750px align=right"}
+![Wheel Dimensions](images/polygon_footprint.svg){: style="width:500px align=right"}
 
 The polygon defines the minimum collision area for the vehicle.
 
