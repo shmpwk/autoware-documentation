@@ -27,7 +27,7 @@ All the fields by default have the following units depending on their types:
 
 !!! warning ""
 
-    If the field in a message will have any of these default units, don't add any suffix or prefix denoting the type.
+    If a field in a message has any of these default units, don't add any suffix or prefix denoting the type.
 
 ## Non-default units
 
